@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome - MyTour</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
+
+    <!-- font -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,500&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- Main Header and Navigation 
+    ==================================================-->
+    <div class="main_header">
+        <div class="navbar navbar-inverse" role="navigation">
+            <div class="container">
+                <img class="logo pull-left" src="" alt="">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                
+                <div class="navbar-collapse collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a class="btn btn-default-singin" href="#">Sign In</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><!-- Main Header and Navigation -->
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        
+        <div class="carousel-inner">
+            <div id="slider1" class="item active">
+                <div class="container pull-left">
+                    <div class="carousel-caption">
+                        <!-- <h1>Build jQuery Mobile<br> apps, the easy way.</h1>
+                        <p id="slider1_text" class="lead">
+                            Codiqa is a powerful drag-and-drop builder for<br> creating cross-platform HTML5 mobile apps and<br>
+                            websites. It's simple,
+                            easy to use, and <strong>so damn useful</strong>.
+                        </p> -->
+                        <!-- <h1>Example headline.</h1>
+                        <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p> -->
+                    </div>
+                </div>
+            </div>
+
+            <div id="slider2" class="item">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <!-- <h1>Another example headline.</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev" style="z-index:99999;"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next" style="z-index:99999;"><span class="glyphicon glyphicon-chevron-right"></span></a>
+
+        <div class="main-text hidden-xs">
+            <div class="col-md-12 text-center">
+                <h1  id="slider-text">
+                    Static Headline And Content</h1>
+                <h3  id="slider-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </h3>
+                <div class="">
+                    <a class="btn btn-clear btn-sm btn-min-block" href="#">Login
+                    </a>
+                    <a class="btn btn-clear btn-sm btn-min-block" href="#">Registration</a>
+                </div>
+
+            </div>
+        </div>
+    </div><!-- /.carousel -->
+
+
+    <!-- packages -->
+        <div class="container-fluid" style="background-color:#e8e8e8">
+        <div class="container container-pad" id="property-listings">
+            
+            <div class="row">
+              <div class="col-md-12">
+                <h1>Tour Package Listings</h1>
+                <p>most popular tour packages, which are recently rated by active users.</p>
+              </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-sm-4"> 
+
+                    <!-- Begin Listing: 609 W GRAVERS LN-->
+                    <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                            <img alt="image" class="img-responsive" src="img/packages/1.jpg"></a>
+
+                            <div class="clearfix visible-sm"></div>
+
+                            <div class="media-body fnt-smaller">
+
+                                <h4 class="media-heading">
+                                  <a href="#">$200</a>
+                                </h4>
+
+
+                                <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
+                                    <li style="font-size: 0.8em;">200KM</li>|
+                                    <li style="font-size: 0.8em;">15 Seats</li>|
+                                    <li style="font-size: 0.8em;">5 Hours</li>
+                                </ul>
+
+                                <p class="hidden-xs">
+                                    this is the description of tour package asdasd dsa das dasd asd asdas das da a sdasd sdfg asjdfgjsadgfj
+                                </p>
+                            </div>
+                            <span class="fnt-smaller fnt-lighter fnt-arial">Courtesy of HS Fox &    Roach-Chestnut Hill Evergreen
+                            </span>
+                        </div>
+                    </div><!-- End Listing-->
+
+                    <!-- Begin Listing: 218 LYNNEBROOK LN-->
+                    <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                            <img alt="image" class="img-responsive" src="img/packages/2.jpg"></a>
+
+                            <div class="clearfix visible-sm"></div>
+
+                            <div class="media-body fnt-smaller">
+                                <h4 class="media-heading">
+                                  <a href="#">$200</a>
+                                </h4>
+
+
+                                <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
+                                    <li style="font-size: 0.8em;">200KM</li>|
+                                    <li style="font-size: 0.8em;">15 Seats</li>|
+                                    <li style="font-size: 0.8em;">5 Hours</li>
+                                </ul>
+
+                                <p class="hidden-xs">
+                                    this is the description of tour package asdasd dsa das dasd asd asdas das da a sdasd sdfg asjdfgjsadgfj
+                                </p>
+                            </div>
+                            <span class="fnt-smaller fnt-lighter fnt-arial">Courtesy of HS Fox &    Roach-Chestnut Hill Evergreen
+                            </span>
+                        </div>
+                    </div><!-- End Listing-->
+
+                    <!-- Begin Listing: 209 CHESTNUT HILL AVE-->
+                    <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                            <img alt="image" class="img-responsive" src="img/packages/3.jpg"></a>
+
+                            <div class="clearfix visible-sm"></div>
+
+                            <div class="media-body fnt-smaller">
+                                <h4 class="media-heading">
+                                  <a href="#">$200</a>
+                                </h4>
+
+
+                                <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
+                                    <li style="font-size: 0.8em;">200KM</li>|
+                                    <li style="font-size: 0.8em;">15 Seats</li>|
+                                    <li style="font-size: 0.8em;">5 Hours</li>
+                                </ul>
+
+                                <p class="hidden-xs">
+                                    this is the description of tour package asdasd dsa das dasd asd asdas das da a sdasd sdfg asjdfgjsadgfj
+                                </p>
+                            </div>
+                            <span class="fnt-smaller fnt-lighter fnt-arial">Courtesy of HS Fox &    Roach-Chestnut Hill Evergreen
+                            </span>
+                        </div>
+                    </div><!-- End Listing-->
+
+                    <!-- Begin Listing: 704 SAINT GEORGES ST-->
+                    <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                            <img alt="image" class="img-responsive" src="img/packages/4.jpg"></a>
+
+                            <div class="clearfix visible-sm"></div>
+
+                            <div class="media-body fnt-smaller">
+                                <h4 class="media-heading">
+                                  <a href="#">$200</a>
+                                </h4>
+
+
+                                <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
+                                    <li style="font-size: 0.8em;">200KM</li>|
+                                    <li style="font-size: 0.8em;">15 Seats</li>|
+                                    <li style="font-size: 0.8em;">5 Hours</li>
+                                </ul>
+
+                                <p class="hidden-xs">
+                                    this is the description of tour package asdasd dsa das dasd asd asdas das da a sdasd sdfg asjdfgjsadgfj
+                                </p>
+                            </div>
+                            <span class="fnt-smaller fnt-lighter fnt-arial">Courtesy of HS Fox &    Roach-Chestnut Hill Evergreen
+                            </span>
+                        </div>
+                    </div><!-- End Listing-->
+
+
+
+                </div>
+
+                <div class="col-sm-4"> 
+
+                    <!-- Begin Listing: 609 W GRAVERS LN-->
+                    <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                            <img alt="image" class="img-responsive" src="img/packages/1.jpg"></a>
+
+                            <div class="clearfix visible-sm"></div>
+
+                            <div class="media-body fnt-smaller">
+                                <h4 class="media-heading">
+                                  <a href="#">$200</a>
+                                </h4>
+
+
+                                <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
+                                    <li style="font-size: 0.8em;">200KM</li>|
+                                    <li style="font-size: 0.8em;">15 Seats</li>|
+                                    <li style="font-size: 0.8em;">5 Hours</li>
+                                </ul>
+
+                                <p class="hidden-xs">
+                                    this is the description of tour package asdasd dsa das dasd asd asdas das da a sdasd sdfg asjdfgjsadgfj
+                                </p>
+                            </div>
+                            <span class="fnt-smaller fnt-lighter fnt-arial">Courtesy of HS Fox &    Roach-Chestnut Hill Evergreen
+                            </span>
+                        </div>
+                    </div><!-- End Listing-->
+
+                    <!-- Begin Listing: 218 LYNNEBROOK LN-->
+                    <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                            <img alt="image" class="img-responsive" src="img/packages/2.jpg"></a>
+
+                            <div class="clearfix visible-sm"></div>
+
+                            <div class="media-body fnt-smaller">
+                                <h4 class="media-heading">
+                                  <a href="#">$200</a>
+                                </h4>
+
+
+                                <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
+                                    <li style="font-size: 0.8em;">200KM</li>|
+                                    <li style="font-size: 0.8em;">15 Seats</li>|
+                                    <li style="font-size: 0.8em;">5 Hours</li>
+                                </ul>
+
+                                <p class="hidden-xs">
+                                    this is the description of tour package asdasd dsa das dasd asd asdas das da a sdasd sdfg asjdfgjsadgfj
+                                </p>
+                            </div>
+                            <span class="fnt-smaller fnt-lighter fnt-arial">Courtesy of HS Fox &    Roach-Chestnut Hill Evergreen
+                            </span>
+                        </div>
+                    </div><!-- End Listing-->
+
+                    <!-- Begin Listing: 209 CHESTNUT HILL AVE-->
+                    <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                            <img alt="image" class="img-responsive" src="img/packages/3.jpg"></a>
+
+                            <div class="clearfix visible-sm"></div>
+
+                            <div class="media-body fnt-smaller">
+                                <h4 class="media-heading">
+                                  <a href="#">$200</a>
+                                </h4>
+
+
+                                <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
+                                    <li style="font-size: 0.8em;">200KM</li>|
+                                    <li style="font-size: 0.8em;">15 Seats</li>|
+                                    <li style="font-size: 0.8em;">5 Hours</li>
+                                </ul>
+
+                                <p class="hidden-xs">
+                                    this is the description of tour package asdasd dsa das dasd asd asdas das da a sdasd sdfg asjdfgjsadgfj
+                                </p>
+                            </div>
+                            <span class="fnt-smaller fnt-lighter fnt-arial">Courtesy of HS Fox &    Roach-Chestnut Hill Evergreen
+                            </span>
+                        </div>
+                    </div><!-- End Listing-->
+
+                    <!-- Begin Listing: 704 SAINT GEORGES ST-->
+                    <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                            <img alt="image" class="img-responsive" src="img/packages/4.jpg"></a>
+
+                            <div class="clearfix visible-sm"></div>
+
+                            <div class="media-body fnt-smaller">
+                                <h4 class="media-heading">
+                                  <a href="#">$200</a>
+                                </h4>
+
+
+                                <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
+                                    <li style="font-size: 0.8em;">200KM</li>|
+                                    <li style="font-size: 0.8em;">15 Seats</li>|
+                                    <li style="font-size: 0.8em;">5 Hours</li>
+                                </ul>
+
+                                <p class="hidden-xs">
+                                    this is the description of tour package asdasd dsa das dasd asd asdas das da a sdasd sdfg asjdfgjsadgfj
+                                </p>
+                            </div>
+                            <span class="fnt-smaller fnt-lighter fnt-arial">Courtesy of HS Fox &    Roach-Chestnut Hill Evergreen
+                            </span>
+                        </div>
+                    </div><!-- End Listing-->
+
+
+
+                </div>
+
+                <div class="col-sm-4">  
+
+                    <!-- Begin Listing: 1220-32 N HOWARD ST-->
+                    <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                            <img alt="image" class="img-responsive" src="img/packages/5.jpg"></a>
+
+                            <div class="clearfix visible-sm"></div>
+
+                            <div class="media-body fnt-smaller">
+                                <h4 class="media-heading">
+                                  <a href="#">$200</a>
+                                </h4>
+
+
+                                <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
+                                    <li style="font-size: 0.8em;">200KM</li>|
+                                    <li style="font-size: 0.8em;">15 Seats</li>|
+                                    <li style="font-size: 0.8em;">5 Hours</li>
+                                </ul>
+
+                                <p class="hidden-xs">
+                                    this is the description of tour package asdasd dsa das dasd asd asdas das da a sdasd sdfg asjdfgjsadgfj
+                                </p>
+                            </div>
+                            <span class="fnt-smaller fnt-lighter fnt-arial">Courtesy of HS Fox &    Roach-Chestnut Hill Evergreen
+                            </span>
+                        </div>
+                    </div><!-- End Listing-->
+
+                    <!-- Begin Listing: 9006 CREFELD ST-->
+                    <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                            <img alt="image" class="img-responsive" src="img/packages/6.jpg"></a>
+
+                            <div class="clearfix visible-sm"></div>
+
+                            <div class="media-body fnt-smaller">
+                                <h4 class="media-heading">
+                                  <a href="#">$200</a>
+                                </h4>
+
+
+                                <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
+                                    <li style="font-size: 0.8em;">200KM</li>|
+                                    <li style="font-size: 0.8em;">15 Seats</li>|
+                                    <li style="font-size: 0.8em;">5 Hours</li>
+                                </ul>
+
+                                <p class="hidden-xs">
+                                    this is the description of tour package asdasd dsa das dasd asd asdas das da a sdasd sdfg asjdfgjsadgfj
+                                </p>
+                            </div>
+                            <span class="fnt-smaller fnt-lighter fnt-arial">Courtesy of HS Fox &    Roach-Chestnut Hill Evergreen
+                            </span>
+                        </div>
+                    </div><!-- End Listing-->
+
+                    <!-- Begin Listing: 701 W ALLENS LN-->
+                    <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                            <img alt="image" class="img-responsive" src="img/packages/7.jpg"></a>
+
+                            <div class="clearfix visible-sm"></div>
+
+                            <div class="media-body fnt-smaller">
+                                <h4 class="media-heading">
+                                  <a href="#">$200</a>
+                                </h4>
+
+
+                                <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
+                                    <li style="font-size: 0.8em;">200KM</li>|
+                                    <li style="font-size: 0.8em;">15 Seats</li>|
+                                    <li style="font-size: 0.8em;">5 Hours</li>
+                                </ul>
+
+                                <p class="hidden-xs">
+                                    this is the description of tour package asdasd dsa das dasd asd asdas das da a sdasd sdfg asjdfgjsadgfj
+                                </p>
+                            </div>
+                            <span class="fnt-smaller fnt-lighter fnt-arial">Courtesy of HS Fox &    Roach-Chestnut Hill Evergreen
+                            </span>
+                        </div>
+                    </div><!-- End Listing-->
+
+                    <!-- Begin Listing: 701 W ALLENS LN-->
+                    <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                            <img alt="image" class="img-responsive" src="img/packages/7.jpg"></a>
+
+                            <div class="clearfix visible-sm"></div>
+
+                            <div class="media-body fnt-smaller">
+                                <h4 class="media-heading">
+                                  <a href="#">$200</a>
+                                </h4>
+
+
+                                <ul class="list-inline mrg-0 btm-mrg-10 clr-535353">
+                                    <li style="font-size: 0.8em;">200KM</li>|
+                                    <li style="font-size: 0.8em;">15 Seats</li>|
+                                    <li style="font-size: 0.8em;">5 Hours</li>
+                                </ul>
+
+                                <p class="hidden-xs">
+                                    this is the description of tour package asdasd dsa das dasd asd asdas das da a sdasd sdfg asjdfgjsadgfj
+                                </p>
+                            </div>
+                            <span class="fnt-smaller fnt-lighter fnt-arial">Courtesy of HS Fox &    Roach-Chestnut Hill Evergreen
+                            </span>
+                        </div>
+                    </div><!-- End Listing-->
+                </div><!-- End Col -->
+            </div><!-- End row -->
+        </div><!-- End container -->
+    </div><!-- Packages -->
+
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2">
+            <h4 class="footer-list-heading">PRODUCT</h4>
+              <nav>
+                <ul>
+                  <li><a href="http://docs.codiqa.com" target="_blank">Documentation</a></li>
+                  <li><a href="/customers">Customers</a></li>
+                  <li><a href="/features">Tour</a></li>
+                  <li><a href="/plans">Pricing</a></li>
+                </ul>
+              </nav>
+          </div>
+          <div class="col-lg-2">
+          <h4 class="footer-list-heading">CONTACT</h4>
+            <nav>
+              <ul>
+                <li><a href="/support">Support</a></li>
+                <li><a href="mailto:sales@drifty.com?subject=Codiqa Sales Inquiry">Sales</a></li>
+                <li><a href="http://codiqa.com/forum" target="_blank">Forum</a></li>
+                <li><a href="http://blog.codiqa.com" target="_blank">Blog</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-lg-2">
+            <h4 class="footer-list-heading">COMPANY</h4>
+            <nav>
+              <ul>
+                <li><a href="/about">About</a></li>
+                <li><a href="https://s3.amazonaws.com/codiqa-static/press_pack.zip">Press Kit</a></li>
+                <li><a href="/educational">Education</a></li>
+                <li><a href="/non-profit">Non-profits</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-lg-2">
+            <h4 class="footer-list-heading">"HELLO"</h4>
+            <nav>
+              <ul>
+                <li><a href="#" target="_blank">Twitter</a></li>
+                <li><a href="#" target="_blank">Facebook</a></li>
+                <li><a href="#" rel="publisher" target="_blank">Google+</a></li>
+                <li><a href="#" target="_blank">Blog</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-lg-4">
+            <h4 class="footer-list-heading">SUBSCRIBE TO OUR NEWSLETTER!</h4>
+            <form action="#" method="post" class="ng-pristine ng-valid">
+              <div class="input-group">
+                <input type="email" name="cm-jlqhy-jlqhy" class="form-control" id="footer-form" required="">
+                <span class="input-group-btn">
+                  <button class="btn btn-success" type="submit">Join</button>
+                </span>
+              </div><!-- /input-group -->
+            </form>
+            <p id="no-spam">We will never send spam and you can unsubscribe any time.</p>
+            
+          </div>
+        </div>       
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
